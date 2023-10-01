@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bulb{
+    width: 180px;
+    height: 180px;
+    border: 1px solid lightgray;
+    background-color: rgba(255, 255, 0 ,0.2);
+    border-radius: 50%;
+    transform: translateY(25px);
+}
+.strips{
+    background-color: rgb(24, 21, 21);
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 20;
+}
+.one{
+    width: 140px;
+    
+}
+.two{
+    width: 110px;
+}
+.three{
+    width: 90px;
+}
+.four{
+    width: 60px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    color: #a696df;
+    background-color: rgb(134, 134, 136);
+    z-index: 20;
+    /* border: none; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #1a1919;
+    cursor: pointer;
+}
