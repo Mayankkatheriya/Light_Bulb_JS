@@ -7,11 +7,11 @@ btn[0].addEventListener('click', function(){
         bulb.style.backgroundColor="yellow";
         bulb.style.boxShadow = "0 0 120px 450px rgba(255, 255, 0, 0.5)"
         bulb.style.transition = "0.2s"
-        buttonBackground.style.backgroundColor = "rgb(120, 122, 112)";
+        buttonBackground.style.backgroundColor = "rgb(105, 105, 105)";
         buttonBackground.style.boxShadow = "0 0 10px 3px #000"
         buttonBackground.style.transition = "0.15s"
         btn[0].style.border = '1px solid black';
-        btn[0].style.borderTop = '8px solid rgb(121, 120, 120)';
+        btn[0].style.borderTop = '8px solid rgb(140, 140, 140)';
         btn[0].style.backgroundImage = "linear-gradient(rgb(110,110,110), rgb(120,120,120))";
         btn[0].style.transition = "0.15s"
         flag=1;
