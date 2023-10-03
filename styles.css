@@ -34,7 +34,6 @@ body{
 }
 .one{
     width: 140px;
-    
 }
 .two{
     width: 110px;
@@ -60,7 +59,7 @@ body{
     width: 100%;
     height: 100%;
     border: 1px solid black;
-    border-bottom: 5px solid rgb(121, 120, 120);
+    border-bottom: 8px solid rgb(121, 120, 120);
     background-image: linear-gradient(rgb(120, 120, 120), rgb(90, 90, 90));
     z-index: 20;
     cursor: pointer;
@@ -74,10 +73,9 @@ body{
     font-size: 12px;
     font-weight: 700;
 }
-.first{
+#off{
     color: rgb(194, 28, 28);
 }
-.second{
+#on{
     color: rgb(9, 56, 9);
 }
-
